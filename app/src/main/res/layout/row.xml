@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="_id"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_id"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Item Name"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_item_name"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Quantity"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_quantity"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Unit"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:id="@+id/tv_unit"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ch_checkbox1"/>
+</LinearLayout>

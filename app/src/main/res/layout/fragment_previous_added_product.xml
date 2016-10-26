@@ -2,16 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FCE4EC"
-    tools:context="com.palle.annu.groceryshopping.FruitFragment">
+    tools:context="com.palle.annu.groceryshopping.PreviousAddedProduct">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10sp"
-        android:layout_margin="20sp"
-        android:textSize="20sp"
-        android:text="Hello Fruit Fragment" />
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
